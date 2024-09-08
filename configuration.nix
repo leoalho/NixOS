@@ -29,7 +29,7 @@
   time.timeZone = "Europe/Helsinki";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_UK.UTF-8";
+  i18n.defaultLocale = "en_GB.UTF-8";
 
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "fi_FI.UTF-8";
@@ -107,7 +107,7 @@
   gh
   git
   neovim
-  gnome-extensions-manager
+  gnome-extension-manager
   gnomeExtensions.dash-to-dock
   ];
 
