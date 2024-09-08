@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
     ];
 
   # Bootloader.
@@ -29,7 +29,7 @@
   time.timeZone = "Europe/Helsinki";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "fi_FI.UTF-8";
+  i18n.defaultLocale = "en_UK.UTF-8";
 
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "fi_FI.UTF-8";
@@ -107,6 +107,8 @@
   gh
   git
   neovim
+  gnome-extensions-manager
+  gnomeExtensions.dash-to-dock
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
